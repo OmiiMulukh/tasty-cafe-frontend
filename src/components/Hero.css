@@ -1,0 +1,18 @@
+.hero {
+  height: 100vh;
+  background: url("https://images.unsplash.com/photo-1509042239860-f550ce710b93") center/cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 50px;
+}
+
+.hero p {
+  font-size: 20px;
+}

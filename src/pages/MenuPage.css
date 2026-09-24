@@ -1,0 +1,100 @@
+.menu-page {
+  padding: 60px;
+  text-align: center;
+}
+
+/* Tabs */
+.tabs {
+  margin: 30px 0;
+}
+
+.tabs button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  border: none;
+  background: #eee;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.tabs .active {
+  background: orange;
+  color: white;
+}
+
+/* Cart */
+.cart-count {
+  margin-bottom: 20px;
+}
+
+/* Grid */
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+/* Card */
+.menu-card {
+  background: #111;
+  color: white;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.menu-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Image */
+.img-box {
+  height: 220px;
+  overflow: hidden;
+}
+
+.img-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Content */
+.menu-content {
+  padding: 15px;
+}
+
+/* Name + Price */
+.top-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price {
+  color: orange;
+  font-weight: bold;
+}
+
+/* Description */
+.desc {
+  font-size: 14px;
+  color: #bbb;
+  margin: 10px 0;
+}
+
+/* Button */
+.add-btn {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background: orange;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-btn:hover {
+  background: darkorange;
+}
