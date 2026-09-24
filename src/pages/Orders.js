@@ -5,10 +5,9 @@ import "./Orders.css";
 export default function Orders() {
   const { orders, fetchOrders } = useContext(CartContext);
 
-  // 🔥 fetch from backend
   useEffect(() => {
-    fetchOrders();
-  }, []);
+  fetchOrders();
+}, [fetchOrders]);
 
   return (
     <div className="orders-page">
